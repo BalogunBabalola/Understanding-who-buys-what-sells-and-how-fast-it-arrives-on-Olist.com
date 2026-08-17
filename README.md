@@ -54,6 +54,8 @@ and which delivery regions require logistics intervention.
 
 - **Buyer's segment:** The total customers were grouped into 3 different categories namely ***Single_category_buyers(buyers who bought from only one product category)***,***Narrow_buyers(buyers who bought from 3 categories or less than that)***, **Moderate_buyers(buyers who bought from 5 categories or less than)** and ***Broad_buyers(customers who bought from 6 categories and more)*** to understand the purchase pattern of each customer group. This classification has shown that 97% of the customer base belongs in the single category buyers who have generated ***R$12,671,584.4 (95.8%)*** of the total revenue for the business during the period.
 
+<img width="855" height="438" alt="Image" src="https://github.com/user-attachments/assets/f2c60882-9abb-4ec8-9531-eb6f935ae6db" />
+
 
 
 - **Purchase frequency:** Following the same pattern as the customer segment, the amount of orders made by customers was used to group them in ranges from ***1-2, 3-5, 6-9, 10-12, 13-14 and 15+.*** Results show that a total of ***93,306 customers***(***96%***) of the customer base belong in the lower purchase frequency who made purchases between ***1 to 9 times*** while less than ***5%*** of the customer base patronised the business at least ***10 times*** and more. 
