@@ -64,21 +64,21 @@ However, the customers with a higher purchase frequency had a higher average amo
 - **Churn detection:** The dataset ranged from ***2016 to 2018*** ;the latest purchase date was used to determine the last time a customer has patronised the business.The following rules were adopted: customers whose number of days since last purchase is 60 days and above are tagged ***At risk***, customers whose number of days since last purchase is 90 days and above are tagged ***Churned*** while customers whose last purchase are below that are tagged ***Active***. In a similar fashion with buyers segment and purchase frequency, ***80,980(86.7%)*** customers were discovered to be at risk of not purchasing from the business while ***12,370(13%)*** of the customers are active on the site. It is also important to note that 2,746 customer records existed in the dataset with no associated order items likely representing registered accounts that never completed a purchase. 
 These were excluded from segmentation analysis. All segment metrics reflect customers with at least one confirmed purchase
 
-
+<img width="492" height="415" alt="Image" src="https://github.com/user-attachments/assets/1034f7b7-567b-49dd-8dc7-8993dce87fc9" />
 
 ***VERDICT:*** *Majority of the customers make little purchases from the site with a large time gap in betweeen their purchases.*
 
 - **Revenue growth source:** The data shows business operations for 9 consecutive quarters where only the first period ***(2016, q3)*** had the least revenue recorded ***(R$40,336)*** and it was subsequently followed by revenue growth as a result of both price and volume increase. ***2017's*** revenue growth in its first 3 quarters came from volume increase only followed by revenue growth from both price increase and volume increase in its last quarter. ***2018*** was the most volatile year where revenue growth ***(R$2,704,438.38)*** in its 1st quarter came from volume increase only, revenue growth ***(R$2,806,670.75)*** in its 2nd quarter came from price increase only and a decline in revenue( ***R$1,706,063.11)*** was experienced in its 3rd quarter.
 
-
+<img width="886" height="482" alt="Image" src="https://github.com/user-attachments/assets/b4fd2a88-e741-429c-acfc-4ac08e3643c5" />
 
 - **Order volume growth:** The economic rule of recession where recession is declared after 2 consecutive quarters of economic decline was borrowed here however, in this case, 3 quarters of consecutive growth or decline is determined per seller. 1538(51.8%) of the sellers experienced consistent growing order volume, 1421(47.8%) of them experienced declining order volume and 11(0.33%) experienced a volatile order volume during the period
 
-
+<img width="760" height="472" alt="Image" src="https://github.com/user-attachments/assets/66ed1a50-89b0-45a8-987a-1022944fc33a" />
 
 - **Average order to delivery time in days:** ***Sao Paulo*** has the fastest order to delivery time ***(8 days)*** which can be attributed to its being the capital city and also having the highest amount of ***sellers-per-customer ratio(16:1)***. States like ***Minas Gerais*** and ***Parana*** are the second closest to the capital city with their delivery coming in **11 days*** after making order;customers in ***Distrito Federal*** and ***Santa Catarina*** also have experienced a similar treatment with orders coming in at ***12 and 14 days*** on average respectively while states like ***Goias Espirito Santos, Mato Grosso do Sul, Rio de Janeiro and Rio Grande do Sul*** have their deliveries coming in at an average of ***15 days***. In a reverse fashion, states with slow delivery like **Mato Grosso Tocantin Pernambuco, Bahia** etc have deliveries coming in as late as 20 days due to low order rate from those states and a low seller-to-buyer ratio in those states. Delivery also went up as high as 24 to 28 days in other states
 
-
+<img width="997" height="492" alt="Image" src="https://github.com/user-attachments/assets/392c51bf-a09d-4f6e-bdbb-7f3f5d5701ce" />
 
 ***VERDICT:*** *Revenue is increasing every year, sellers on the platform are also increasing their sales volume but a slow order to delivery time is peculiar most states.*
 
