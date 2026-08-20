@@ -33,22 +33,23 @@ and which delivery regions require logistics intervention.
 - How has volume changed following each price adjustment period?
 - Does revenue growth come from price increases or volume growth?
 - What is the average order-to-delivery time by region, and how has it trended?
-- Which sales reps are growing their account base? Which are declining?
 
-
-##
+## **Methodology**: 
+The original tables were 9 in total namely ***olist_customers_dataset, olist_geolocation_dataset, olist_order_items_dataset, olist_order_payments_dataset, olist_order_reviews_dataset, olist_orders_dataset, olist_products_dataset, olist_sellers_dataset and product_category_name_translation***. **OlistDB** is the database created in **SQL Server** by using the required tables for this project and making them into views for accessibility. 
+**data_cleaning_and_preparation.sql** was used to clean and compile the needed tables into views namely ***dbo.orders, dbo.customers, dbo.order_items, dbo.payments and dbo.sellers***. These tables were finally used in **final_analysis.sql** to draw various insights from the database and the results were 
+imported into PowerBI for the visualisations.
 
 | Metrics and KPI | Value |
 |-----------------|-------|
 | Average revenue per customer | R$141.62 |
 | Total customers | 96,096 |
-| Total sellers | 3095 |
+| Total sellers | 3,095 |
 | Total product categories | 73 |
 | Customer retention rate | 33.3%|
 | Prompt delivery rate | 91.9% |
-| Seller growth rate | 33.3% |
+| Sellers growth rate | 33.3% |
 
-##
+
 
 ## **Key findings** 
 
